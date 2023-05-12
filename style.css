@@ -19,7 +19,7 @@ header{
     align-items: center;
 }
 
-main{
+form{
     width: 100%;
     display: grid;
     justify-content: center;
@@ -35,4 +35,18 @@ main{
 
 .btn{
     width: 100px;
+}
+
+footer{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
 }
